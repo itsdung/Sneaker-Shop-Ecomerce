@@ -1,0 +1,43 @@
+.intro{
+    padding-top: 12rem;
+    &-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        .intro-title{
+            font-size: 4.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: var(--color-header-dark);
+        }
+
+        .intro-text{
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: var(--color-text-gray);
+        }
+
+        .intro-shop{
+            display: flex;
+            gap: 6rem;
+            &-text{
+                margin-bottom: 8rem;
+                p{
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    &-img{
+
+        &-pictures{
+            width: 100%;
+        }
+    }
+}
